@@ -589,6 +589,7 @@ footer {
     .company-description-image img {
         width: 85vw;
     height: 25vh;
+    object-fit: cover;
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
 }
@@ -815,6 +816,16 @@ footer {
     .question {
         width: 90vw;
     }
+
+    .company-statistics-block:hover .statistics-numbers {
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .company-statistics-block:hover p {
+        font-size: 18px;
+    }
+
 }
 
 
